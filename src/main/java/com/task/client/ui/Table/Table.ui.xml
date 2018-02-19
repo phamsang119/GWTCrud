@@ -1,10 +1,14 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
-             xmlns:p="urn:import:com.task.client.ui.Table"
-             xmlns:c="urn:import:com.google.gwt.user.cellview.client">
+             xmlns:c="urn:import:com.google.gwt.user.cellview.client" xmlns:my="urn:import:com.task.client.ui.EditWindow">
     <g:HTMLPanel>
+        <my:EditCard ui:field="editCard" visible="false"/>
         <g:VerticalPanel ui:field="verPanel">
-            <p:TableHeader ui:field="header"/>
+            <g:HorizontalPanel>
+                <g:Button ui:field="addButton" text="add"/>
+                <g:Button ui:field="editButton" text="edit"/>
+                <g:Button ui:field="deleteButton" text="delete"/>
+            </g:HorizontalPanel>
             <c:CellTable ui:field="mainTable"/>
         </g:VerticalPanel>
     </g:HTMLPanel>

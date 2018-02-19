@@ -7,8 +7,9 @@ import com.task.client.BookServiceAsync;
 
 public class Helper {
 
-
     private static int id = 0;
+
+    private static final BookServiceAsync bookService = GWT.create(BookService.class);
 
     private Helper() {
     }
@@ -17,7 +18,6 @@ public class Helper {
         return id++;
     }
 
-    private static final BookServiceAsync bookService = GWT.create(BookService.class);
 
     public static BookServiceAsync getBookService() {
         return bookService;

@@ -1,8 +1,10 @@
 package com.task.client.ui.EditWindow;
 
 import com.google.gwt.core.client.GWT;
+import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
@@ -22,13 +24,9 @@ public class EditCard extends Composite {
 
     private static EditCardUiBinder ourUiBinder = GWT.create(EditCardUiBinder.class);
 
-    /**
-     * PRC service.
-     */
     private final BookServiceAsync bookService = Helper.getBookService();
 
     private final ListDataProvider<Book> dataProvider = Table.getDataProvider();
-
 
     @UiField
     Button save;
@@ -49,11 +47,10 @@ public class EditCard extends Composite {
 
     public EditCard() {
         initWidget(ourUiBinder.createAndBindUi(this));
-        initCancelButton();
-        initSaveButton();
     }
 
-    private void initSaveButton() {
+    @UiHandler("save")
+    void initSaveButton(ClickEvent e) {
         save.addClickHandler(clickEvent ->
         {
             Book book;
@@ -98,7 +95,8 @@ public class EditCard extends Composite {
 
     }
 
-    private void initCancelButton() {
+    @UiHandler("cancel")
+    void initCancelButton(ClickEvent e) {
         cancel.addClickHandler(clickEvent -> this.setVisible(false));
     }
 
@@ -112,10 +110,8 @@ public class EditCard extends Composite {
     }
 
     public void setBookName(String bookName) {
-
         bookNameBox.setText(bookName);
     }
-
 
     public void setDescription(String description) {
         descriptionArea.setText(description);
