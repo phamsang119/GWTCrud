@@ -1,0 +1,11 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:my="urn:import:com.task.client.ui.EditWindow">
+    <g:HTMLPanel>
+        <g:HorizontalPanel ui:field="horPanel">
+            <g:Button ui:field="addButton" text="add"/>
+            <g:Button ui:field="editButton" text="edit"/>
+            <g:Button ui:field="deleteButton" text="delete"/>
+        </g:HorizontalPanel>
+        <my:EditCard ui:field="editCard" visible="false"/>
+    </g:HTMLPanel>
+</ui:UiBinder>

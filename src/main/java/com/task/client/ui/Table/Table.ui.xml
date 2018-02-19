@@ -1,0 +1,11 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:p="urn:import:com.task.client.ui.Table"
+             xmlns:c="urn:import:com.google.gwt.user.cellview.client">
+    <g:HTMLPanel>
+        <g:VerticalPanel ui:field="verPanel">
+            <p:TableHeader ui:field="header"/>
+            <c:CellTable ui:field="mainTable"/>
+        </g:VerticalPanel>
+    </g:HTMLPanel>
+</ui:UiBinder>
