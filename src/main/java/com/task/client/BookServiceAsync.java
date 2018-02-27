@@ -13,4 +13,5 @@ public interface BookServiceAsync {
 
     void delete(Book book, AsyncCallback<Boolean> async);
 
+    void getBook(int id, AsyncCallback<Book> async);
 }

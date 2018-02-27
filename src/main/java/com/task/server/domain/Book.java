@@ -1,8 +1,12 @@
 package com.task.server.domain;
 
-import com.task.client.ui.Service.Helper;
+import com.task.client.service.Helper;
+import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -12,12 +16,17 @@ public class Book implements Serializable {
     @Id
     private int id;
 
+    @NotNull
+    @Size(min = 3, max = 100)
     private String bookName;
 
+    @Size(max = 255)
     private String description;
 
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private Date publishedDate;
 
+    @NotNull
     private double price;
 
     public Book() {

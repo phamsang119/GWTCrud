@@ -15,5 +15,7 @@ public interface BookService extends RemoteService {
 
     boolean delete(Book book);
 
+    Book getBook(int id);
+
 
 }

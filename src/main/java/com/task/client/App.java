@@ -1,16 +1,21 @@
 package com.task.client;
 
 import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.user.client.ui.RootPanel;
-import com.task.client.ui.Table.Table;
 
 /**
  * Entry point
  */
 public class App implements EntryPoint {
 
+
     @Override
     public void onModuleLoad() {
-        RootPanel.get().add(new Table());
+        BookServiceAsync rpcService = GWT.create(BookService.class);
+        HandlerManager eventBus = new HandlerManager(null);
+        AppController appViewer = new AppController(rpcService, eventBus);
+        appViewer.go(RootPanel.get());
     }
 }

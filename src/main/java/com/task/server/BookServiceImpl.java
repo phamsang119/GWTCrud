@@ -31,4 +31,9 @@ public class BookServiceImpl extends RemoteServiceServlet
         return true;
     }
 
+    @Override
+    public Book getBook(int id) {
+       return bookRepository.findOne(id);
+    }
+
 }
