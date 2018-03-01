@@ -57,10 +57,10 @@ public class AppController implements ValueChangeHandler<String> {
 
             @Override
             public void onSuccess(Boolean aBoolean) {
-                Window.alert("delete successful");
             }
         });
-
+        Presenter presenter = new TablePresenter(rpcService,eventBus, new Table());
+        presenter.go(container);
     }
     private void doAddNewContact() {
         History.newItem("add");
