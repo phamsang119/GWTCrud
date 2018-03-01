@@ -88,7 +88,7 @@ public class EditCardPresenter implements Presenter {
         rpcService.save(book, new AsyncCallback<Book>() {
             @Override
             public void onFailure(Throwable throwable) {
-                Window.alert("Error updating contact");
+                Window.alert("Error update/add book with id " + book.getId());
             }
 
             @Override

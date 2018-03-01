@@ -13,7 +13,7 @@ public interface BookService extends RemoteService {
 
     Book save(Book book);
 
-    boolean delete(Book book);
+    boolean delete(int id);
 
     Book getBook(int id);
 

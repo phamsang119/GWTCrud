@@ -1,7 +1,6 @@
 package com.task.client.presenter;
 
 
-import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.user.client.rpc.AsyncCallback;
@@ -19,10 +18,15 @@ public class TablePresenter implements Presenter {
 
     public interface Display {
         HasClickHandlers getAddButton();
+
         HasClickHandlers getDeleteButton();
+
         HasClickHandlers getUpdateButton();
+
         void setData(List<Book> data);
-        int getClickedRow(ClickEvent event);
+
+        int getSelectedRowBookId();
+
         Widget asWidget();
     }
 
@@ -38,8 +42,8 @@ public class TablePresenter implements Presenter {
 
     public void bind() {
         display.getAddButton().addClickHandler(event -> eventBus.fireEvent(new AddBookEvent()));
-        display.getDeleteButton().addClickHandler(event -> eventBus.fireEvent(new DeleteBookEvent(display.getClickedRow(event))));
-        display.getUpdateButton().addClickHandler(event -> eventBus.fireEvent(new EditBookEvent(display.getClickedRow(event))));
+        display.getDeleteButton().addClickHandler(event -> eventBus.fireEvent(new DeleteBookEvent(display.getSelectedRowBookId())));
+        display.getUpdateButton().addClickHandler(event -> eventBus.fireEvent(new EditBookEvent(display.getSelectedRowBookId())));
     }
 
 
@@ -51,8 +55,8 @@ public class TablePresenter implements Presenter {
         fetchTable();
     }
 
-    private void fetchTable()
-    {
+    private void fetchTable() {
+
         rpcService.list(new AsyncCallback<List<Book>>() {
             @Override
             public void onFailure(Throwable throwable) {
@@ -64,8 +68,6 @@ public class TablePresenter implements Presenter {
             }
         });
     }
-
-
 
 
 }

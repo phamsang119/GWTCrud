@@ -1,7 +1,6 @@
 package com.task.client.view.Table;
 
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
@@ -23,8 +22,8 @@ public class Table extends Composite implements TablePresenter.Display {
     }
 
     private static TableUiBinder ourUiBinder = GWT.create(TableUiBinder.class);
+    private ListDataProvider<Book> dataProvider;
 
-    private static ListDataProvider<Book> dataProvider;
 
     @UiField
     EditCard editCard;
@@ -113,8 +112,12 @@ public class Table extends Composite implements TablePresenter.Display {
     }
 
     @Override
-    public int getClickedRow(ClickEvent event) {
-
+    public int getSelectedRow() {
         return mainTable.getKeyboardSelectedRow();
+    }
+
+    @Override
+    public int getSelectedRowBookId() {
+        return dataProvider.getList().get(mainTable.getKeyboardSelectedRow()).getId();
     }
 }
