@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8567dc-55e6-4dc1-b35d-8b086cf7b5ea" name="Default" comment="with MVP pattern">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/DeleteBookEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/DeleteBookEventHandler.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/AppController.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/AppController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/BookService.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/BookService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/BookServiceAsync.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/BookServiceAsync.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/presenter/EditCardPresenter$2.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/presenter/EditCardPresenter$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/presenter/TablePresenter$1.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/presenter/TablePresenter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/presenter/TablePresenter$Display.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/presenter/TablePresenter$Display.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/presenter/TablePresenter.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/presenter/TablePresenter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/EditWindow/EditCard.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/EditWindow/EditCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table$1.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table$2.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table$3.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table$4.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/client/view/Table/Table.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/server/BookServiceImpl.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/server/BookServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/server/domain/Book.class" afterPath="$PROJECT_DIR$/target/protey-1.0-SNAPSHOT/WEB-INF/classes/com/task/server/domain/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/task/client/AppController.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/AppController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/task/client/BookService.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/BookService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/task/client/BookServiceAsync.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/BookServiceAsync.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/EditCardPresenter.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/EditCardPresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/task/server/BookServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/server/BookServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,19 +71,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TablePresenter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TablePresenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+            <state relative-caret-position="-62">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1828#1829#0" expanded="true" />
-                <element signature="e#1905#1906#0" expanded="true" />
-                <element signature="e#1960#1961#0" expanded="true" />
-                <element signature="e#2756#2757#0" expanded="true" />
-                <element signature="e#2810#2811#0" expanded="true" />
+                <element signature="e#2044#2045#0" expanded="true" />
+                <element signature="e#2098#2099#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,8 +88,34 @@
       <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="-102">
+              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2081#2082#0" expanded="true" />
+                <element signature="e#2170#2171#0" expanded="true" />
+                <element signature="e#2247#2248#0" expanded="true" />
+                <element signature="e#2312#2313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Table.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,15 +123,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Table.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java">
+      <file leaf-file-name="Presenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/Presenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="115" column="50" lean-forward="false" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
-              <folding>
-                <element signature="e#3080#3081#0" expanded="true" />
-                <element signature="e#3137#3138#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -244,15 +240,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/task/client/presenter/Presenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/task/client/shared/BookDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/EditWindow/EditCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/task/server/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/task/client/BookServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/task/client/BookService.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7fc80e5a-e724-4cc9-94d2-2ce63468c106/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/task/client/presenter/EditCardPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/AppController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/client/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java" />
       </list>
     </option>
   </component>
@@ -793,48 +789,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="event" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TableEvents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EditWindowEvents" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1379,12 +1333,12 @@
       <workItem from="1518026233488" duration="9004000" />
       <workItem from="1518086341056" duration="99921000" />
       <workItem from="1519560201675" duration="24000" />
-      <workItem from="1519618317577" duration="37763000" />
+      <workItem from="1519618317577" duration="38363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160431000" />
+    <option name="totallyTimeSpent" value="161031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1410,7 +1364,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35130718" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35130718" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1611,14 +1565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/service/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/EditBookEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1675,14 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/Presenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/shared/BookDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -1729,16 +1667,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1798,24 +1729,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/service/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="115" column="50" lean-forward="false" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
-          <folding>
-            <element signature="e#3080#3081#0" expanded="true" />
-            <element signature="e#3137#3138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1829,19 +1747,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="74" column="28" lean-forward="false" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+        <state relative-caret-position="-102">
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-            <element signature="e#2756#2757#0" expanded="true" />
-            <element signature="e#2810#2811#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2170#2171#0" expanded="true" />
+            <element signature="e#2247#2248#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/Presenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

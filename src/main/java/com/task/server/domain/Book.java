@@ -1,6 +1,5 @@
 package com.task.server.domain;
 
-import com.task.client.service.Helper;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.Entity;
@@ -44,7 +43,6 @@ public class Book implements Serializable {
     }
 
     public Book(String bookName, String description, Date publishedDate, double price) {
-        this.id = Helper.getIncrementId();
         this.bookName = bookName;
         this.description = description;
         this.publishedDate = publishedDate;

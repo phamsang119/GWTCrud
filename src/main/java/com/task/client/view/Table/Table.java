@@ -112,11 +112,6 @@ public class Table extends Composite implements TablePresenter.Display {
     }
 
     @Override
-    public int getSelectedRow() {
-        return mainTable.getKeyboardSelectedRow();
-    }
-
-    @Override
     public int getSelectedRowBookId() {
         return dataProvider.getList().get(mainTable.getKeyboardSelectedRow()).getId();
     }

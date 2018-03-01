@@ -48,6 +48,7 @@ public class AppController implements ValueChangeHandler<String> {
 
     private void doDeleteBook(DeleteBookEvent event)
     {
+        History.newItem("list");
         rpcService.delete(event.getId(), new AsyncCallback<Boolean>() {
             @Override
             public void onFailure(Throwable throwable) {
@@ -59,7 +60,7 @@ public class AppController implements ValueChangeHandler<String> {
                 Window.alert("delete successful");
             }
         });
-        History.newItem("list");
+
     }
     private void doAddNewContact() {
         History.newItem("add");
