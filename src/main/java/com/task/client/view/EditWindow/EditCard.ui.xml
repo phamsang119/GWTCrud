@@ -1,20 +1,29 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
-             xmlns:ui2="urn:import:com.task.client.view">
+             xmlns:b="urn:import:com.github.gwtbootstrap.client.ui"
+             xmlns:date="urn:import:com.github.gwtbootstrap.datepicker.client.ui">
     <g:HTMLPanel>
-        <g:DialogBox ui:field="editBox" text="Add book">
-            <g:VerticalPanel>
-                <g:HorizontalPanel width="200px"><g:Label text="book name"/> <g:TextBox ui:field="bookNameBox"/></g:HorizontalPanel>
-                <g:HorizontalPanel width="200px"><g:Label text="author"/> <g:TextBox ui:field="author"/></g:HorizontalPanel>
-                <g:HorizontalPanel width="200px"><g:Label text="description"/> <g:TextArea ui:field="descriptionArea"/></g:HorizontalPanel>
-                <g:HorizontalPanel width="200px"><g:Label text="published date"/> <ui2:MyDateBox ui:field="pubDateBox"/></g:HorizontalPanel>
-                <g:HorizontalPanel width="100px"><g:Label text="Price"/> <g:DoubleBox ui:field="priceBox"/></g:HorizontalPanel>
-                <g:HorizontalPanel>
-                    <g:Button ui:field="save" text="Save"/>
-                    <g:Button ui:field="cancel" text="Cancel"/>
-                </g:HorizontalPanel>
-            </g:VerticalPanel>
+        <b:WellForm ui:field="editBox">
+            <b:ControlLabel>Name</b:ControlLabel>
+            <b:TextBox ui:field="bookNameBox" placeholder="name of the book"/>
 
-        </g:DialogBox>
+            <b:ControlLabel>Author</b:ControlLabel>
+            <b:TextBox ui:field="author" placeholder="author(s) of the book"/>
+
+            <b:ControlLabel>Description</b:ControlLabel>
+            <b:TextArea ui:field="descriptionArea" placeholder="description"/>
+
+            <b:ControlLabel>Published Date</b:ControlLabel>
+            <date:DateBoxAppended ui:field="pubDateBox" format="dd-mm-yyyy" autoClose="true"/>
+
+            <b:ControlLabel>Price</b:ControlLabel>
+            <b:DoubleBox ui:field="priceBox" placeholder="name of the book"/>
+
+            <b:SubmitButton ui:field="save">save</b:SubmitButton>
+            <b:Button ui:field="cancel">cancel</b:Button>
+        </b:WellForm>
     </g:HTMLPanel>
+
+
+
 </ui:UiBinder>

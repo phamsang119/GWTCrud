@@ -1,10 +1,13 @@
 package com.task.client.view.DescriptionWindow;
 
+import com.github.gwtbootstrap.client.ui.Button;
+import com.github.gwtbootstrap.client.ui.TextArea;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.user.client.ui.*;
+import com.google.gwt.user.client.ui.Composite;
+import com.google.gwt.user.client.ui.HTMLPanel;
 import com.task.client.presenter.DescWindowPresenter;
 
 public class DescWindow extends Composite implements DescWindowPresenter.Display {
@@ -14,11 +17,9 @@ public class DescWindow extends Composite implements DescWindowPresenter.Display
 
     private static DescWindowUiBinder ourUiBinder = GWT.create(DescWindowUiBinder.class);
 
-    @UiField
-    ScrollPanel scrollPanel;
 
     @UiField
-    RichTextArea textArea;
+    TextArea textArea;
 
     @UiField
     Button cancel;
@@ -28,7 +29,7 @@ public class DescWindow extends Composite implements DescWindowPresenter.Display
     }
 
     @Override
-    public RichTextArea getTextArea() {
+    public TextArea getTextArea() {
         return textArea;
     }
 

@@ -41,6 +41,7 @@
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: com.github.gwtbootstrap:gwt-bootstrap:2.3.2.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

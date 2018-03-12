@@ -1,9 +1,9 @@
 package com.task.client.presenter;
 
+import com.github.gwtbootstrap.client.ui.TextArea;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.user.client.ui.HasWidgets;
-import com.google.gwt.user.client.ui.RichTextArea;
 import com.google.gwt.user.client.ui.Widget;
 import com.task.client.BookServiceAsync;
 import com.task.client.event.DescWindowEvents.CancelDescEvent;
@@ -12,7 +12,7 @@ import com.task.client.event.DescWindowEvents.CancelDescEvent;
 public class DescWindowPresenter implements Presenter {
 
     public interface Display {
-        RichTextArea getTextArea();
+        TextArea getTextArea();
 
         HasClickHandlers getCancelButton();
 

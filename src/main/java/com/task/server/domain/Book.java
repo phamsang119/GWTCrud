@@ -7,7 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
@@ -24,10 +23,9 @@ public class Book implements Serializable {
 
     private String author;
 
-    @Size(max = 255)
     private String description;
 
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE, pattern = "dd-mm-yyyy")
     private Date publishedDate;
 
     @NotNull

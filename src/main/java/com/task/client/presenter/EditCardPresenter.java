@@ -84,6 +84,7 @@ public class EditCardPresenter implements Presenter {
 
     private void doSave() {
         book.setBookName(display.getBookName().getValue());
+        book.setAuthor(display.getAuthor().getValue());
         book.setDescription(display.getDescription().getValue());
         book.setPublishedDate(display.getDate().getValue());
         book.setPrice(display.getPrice().getValue());
