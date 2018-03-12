@@ -5,6 +5,7 @@ import com.task.server.domain.Book;
 
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public interface BookServiceAsync {
 
     void list(AsyncCallback<List<Book>> async);

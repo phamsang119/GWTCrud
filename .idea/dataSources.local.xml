@@ -8,7 +8,9 @@
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <auth-required>false</auth-required>
+      <introspection-schemas>PUBLIC:INFORMATION_SCHEMA,PUBLIC,SYSTEM_LOBS</introspection-schemas>
       <resolve-scope>PUBLIC:public</resolve-scope>
+      <unqualified-resolve-schemas>PUBLIC:public</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>

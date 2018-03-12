@@ -10,7 +10,6 @@ import com.google.gwt.user.client.ui.RootPanel;
  */
 public class App implements EntryPoint {
 
-
     @Override
     public void onModuleLoad() {
         BookServiceAsync rpcService = GWT.create(BookService.class);

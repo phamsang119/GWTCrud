@@ -3,6 +3,7 @@ package com.task.client.presenter;
 
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.HandlerManager;
+import com.google.gwt.user.cellview.client.CellTable;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.gwt.user.client.ui.Widget;
@@ -28,6 +29,10 @@ public class TablePresenter implements Presenter {
         int getSelectedRowBookId();
 
         Widget asWidget();
+
+        CellTable<Book> getMainTable();
+
+        String getSelectedBookDescription();
     }
 
     private final BookServiceAsync rpcService;
@@ -44,6 +49,8 @@ public class TablePresenter implements Presenter {
         display.getAddButton().addClickHandler(event -> eventBus.fireEvent(new AddBookEvent()));
         display.getDeleteButton().addClickHandler(event -> eventBus.fireEvent(new DeleteBookEvent(display.getSelectedRowBookId())));
         display.getUpdateButton().addClickHandler(event -> eventBus.fireEvent(new EditBookEvent(display.getSelectedRowBookId())));
+        display.getMainTable().addDomHandler(doubleClickEvent -> eventBus.fireEvent(new com.task.client.event.TableEvents.DoubleClickEvent(display.getSelectedBookDescription())),
+                com.google.gwt.event.dom.client.DoubleClickEvent.getType());
     }
 
 

@@ -63,14 +63,6 @@ public class Table extends Composite implements TablePresenter.Display {
         };
         mainTable.addColumn(nameColumn, "Book Name");
 
-        TextColumn<Book> descCol = new TextColumn<Book>() {
-            @Override
-            public String getValue(Book object) {
-                return object.getDescription();
-            }
-        };
-        mainTable.addColumn(descCol, "Description");
-
         TextColumn<Book> pubDate = new TextColumn<Book>() {
             @Override
             public String getValue(Book object) {
@@ -112,7 +104,17 @@ public class Table extends Composite implements TablePresenter.Display {
     }
 
     @Override
+    public CellTable<Book> getMainTable() {
+        return mainTable;
+    }
+
+    @Override
     public int getSelectedRowBookId() {
         return dataProvider.getList().get(mainTable.getKeyboardSelectedRow()).getId();
+    }
+
+    @Override
+    public String getSelectedBookDescription() {
+        return dataProvider.getList().get(mainTable.getKeyboardSelectedRow()).getDescription();
     }
 }

@@ -7,14 +7,18 @@ import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasWidgets;
+import com.task.client.event.DescWindowEvents.CancelDescEvent;
 import com.task.client.event.EditWindowEvents.CancelEditWindowEvent;
 import com.task.client.event.EditWindowEvents.SaveBookEvent;
 import com.task.client.event.TableEvents.AddBookEvent;
 import com.task.client.event.TableEvents.DeleteBookEvent;
+import com.task.client.event.TableEvents.DoubleClickEvent;
 import com.task.client.event.TableEvents.EditBookEvent;
+import com.task.client.presenter.DescWindowPresenter;
 import com.task.client.presenter.EditCardPresenter;
 import com.task.client.presenter.Presenter;
 import com.task.client.presenter.TablePresenter;
+import com.task.client.view.DescriptionWindow.DescWindow;
 import com.task.client.view.EditWindow.EditCard;
 import com.task.client.view.Table.Table;
 
@@ -44,24 +48,31 @@ public class AppController implements ValueChangeHandler<String> {
 
         eventBus.addHandler(CancelEditWindowEvent.TYPE, editWindowEvent -> doCancelEvent());
         eventBus.addHandler(SaveBookEvent.TYPE, saveBookEvent -> doSaveBookEvent());
+
+        eventBus.addHandler(DoubleClickEvent.TYPE, this::doShowDescWindow);
+        eventBus.addHandler(CancelDescEvent.TYPE, event -> doCancelEvent());
     }
 
-    private void doDeleteBook(DeleteBookEvent event)
-    {
-        History.newItem("list");
+    private void doShowDescWindow(DoubleClickEvent event) {
+        Presenter presenter = new DescWindowPresenter(event.getDescription(),rpcService, eventBus, new DescWindow());
+        presenter.go(container);
+    }
+
+    private void doDeleteBook(DeleteBookEvent event) {
         rpcService.delete(event.getId(), new AsyncCallback<Boolean>() {
             @Override
             public void onFailure(Throwable throwable) {
-                Window.alert("cannot delete book with id "+event.getId());
+                Window.alert("cannot delete book with id " + event.getId());
             }
 
             @Override
             public void onSuccess(Boolean aBoolean) {
             }
         });
-        Presenter presenter = new TablePresenter(rpcService,eventBus, new Table());
+        Presenter presenter = new TablePresenter(rpcService, eventBus, new Table());
         presenter.go(container);
     }
+
     private void doAddNewContact() {
         History.newItem("add");
     }
@@ -85,8 +96,7 @@ public class AppController implements ValueChangeHandler<String> {
 
         if ("".equals(History.getToken())) {
             History.newItem("list");
-        }
-        else {
+        } else {
             History.fireCurrentHistoryState();
         }
     }
