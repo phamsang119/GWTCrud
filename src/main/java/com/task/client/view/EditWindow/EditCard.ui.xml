@@ -1,0 +1,20 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:ui2="urn:import:com.task.client.view">
+    <g:HTMLPanel>
+        <g:DialogBox ui:field="editBox" text="Add book">
+            <g:VerticalPanel>
+                <g:HorizontalPanel width="200px"><g:Label text="book name"/> <g:TextBox ui:field="bookNameBox"/></g:HorizontalPanel>
+                <g:HorizontalPanel width="200px"><g:Label text="author"/> <g:TextBox ui:field="author"/></g:HorizontalPanel>
+                <g:HorizontalPanel width="200px"><g:Label text="description"/> <g:TextArea ui:field="descriptionArea"/></g:HorizontalPanel>
+                <g:HorizontalPanel width="200px"><g:Label text="published date"/> <ui2:MyDateBox ui:field="pubDateBox"/></g:HorizontalPanel>
+                <g:HorizontalPanel width="100px"><g:Label text="Price"/> <g:DoubleBox ui:field="priceBox"/></g:HorizontalPanel>
+                <g:HorizontalPanel>
+                    <g:Button ui:field="save" text="Save"/>
+                    <g:Button ui:field="cancel" text="Cancel"/>
+                </g:HorizontalPanel>
+            </g:VerticalPanel>
+
+        </g:DialogBox>
+    </g:HTMLPanel>
+</ui:UiBinder>

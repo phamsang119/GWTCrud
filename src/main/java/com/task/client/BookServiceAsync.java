@@ -5,12 +5,16 @@ import com.task.server.domain.Book;
 
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public interface BookServiceAsync {
 
     void list(AsyncCallback<List<Book>> async);
 
     void save(Book book, AsyncCallback<Book> async);
 
-    void delete(Book book, AsyncCallback<Boolean> async);
+    void delete(int id, AsyncCallback<Boolean> async);
+
+    void getBook(int id, AsyncCallback<Book> async);
+
 
 }

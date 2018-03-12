@@ -1,38 +1,51 @@
 package com.task.server.domain;
 
-import com.task.client.ui.Service.Helper;
+import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.Objects;
 
 @Entity(name = "book")
 public class Book implements Serializable {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
+    @NotNull
     private String bookName;
 
+    private String author;
+
+    @Size(max = 255)
     private String description;
 
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private Date publishedDate;
 
+    @NotNull
     private double price;
 
     public Book() {
     }
 
-    public Book(int id, String bookName, String description, Date publishedDate, double price) {
+    public Book(int id, String bookName, String author, String description, Date publishedDate, double price) {
         this.id = id;
         this.bookName = bookName;
         this.description = description;
         this.publishedDate = publishedDate;
         this.price = price;
+        this.author = author;
     }
 
     public Book(String bookName, String description, Date publishedDate, double price) {
-        this.id = Helper.getIncrementId();
         this.bookName = bookName;
         this.description = description;
         this.publishedDate = publishedDate;
@@ -83,14 +96,21 @@ public class Book implements Serializable {
         this.price = price;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Book book = (Book) o;
-
-        return id == book.id;
+        return id == book.id &&
+                Objects.equals(bookName, book.bookName);
     }
 
     @Override

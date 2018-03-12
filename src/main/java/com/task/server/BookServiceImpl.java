@@ -26,9 +26,14 @@ public class BookServiceImpl extends RemoteServiceServlet
     }
 
     @Override
-    public boolean delete(Book book) {
-        this.bookRepository.delete(book.getId());
+    public boolean delete(int id) {
+        this.bookRepository.delete(id);
         return true;
+    }
+
+    @Override
+    public Book getBook(int id) {
+       return bookRepository.findOne(id);
     }
 
 }
