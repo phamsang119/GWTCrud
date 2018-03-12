@@ -10,6 +10,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.Objects;
 
 @Entity(name = "book")
 public class Book implements Serializable {
@@ -19,8 +20,9 @@ public class Book implements Serializable {
     private int id;
 
     @NotNull
-    @Size(min = 3, max = 100)
     private String bookName;
+
+    private String author;
 
     @Size(max = 255)
     private String description;
@@ -34,12 +36,13 @@ public class Book implements Serializable {
     public Book() {
     }
 
-    public Book(int id, String bookName, String description, Date publishedDate, double price) {
+    public Book(int id, String bookName, String author, String description, Date publishedDate, double price) {
         this.id = id;
         this.bookName = bookName;
         this.description = description;
         this.publishedDate = publishedDate;
         this.price = price;
+        this.author = author;
     }
 
     public Book(String bookName, String description, Date publishedDate, double price) {
@@ -93,14 +96,21 @@ public class Book implements Serializable {
         this.price = price;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Book book = (Book) o;
-
-        return id == book.id;
+        return id == book.id &&
+                Objects.equals(bookName, book.bookName);
     }
 
     @Override

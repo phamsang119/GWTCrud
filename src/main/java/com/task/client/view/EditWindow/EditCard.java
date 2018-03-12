@@ -31,6 +31,8 @@ public class EditCard extends Composite implements EditCardPresenter.Display {
     MyDateBox pubDateBox;
     @UiField
     DoubleBox priceBox;
+    @UiField
+    TextBox author;
 
     public EditCard() {
         initWidget(ourUiBinder.createAndBindUi(this));
@@ -50,6 +52,11 @@ public class EditCard extends Composite implements EditCardPresenter.Display {
     @Override
     public HasValue<String> getBookName() {
         return bookNameBox;
+    }
+
+    @Override
+    public HasValue<String> getAuthor() {
+        return author;
     }
 
     @Override

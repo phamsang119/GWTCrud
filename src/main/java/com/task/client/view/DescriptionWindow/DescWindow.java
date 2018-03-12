@@ -18,7 +18,7 @@ public class DescWindow extends Composite implements DescWindowPresenter.Display
     ScrollPanel scrollPanel;
 
     @UiField
-    TextBox textBox;
+    RichTextArea textArea;
 
     @UiField
     Button cancel;
@@ -28,8 +28,8 @@ public class DescWindow extends Composite implements DescWindowPresenter.Display
     }
 
     @Override
-    public TextBox getTextBox() {
-        return textBox;
+    public RichTextArea getTextArea() {
+        return textArea;
     }
 
     @Override

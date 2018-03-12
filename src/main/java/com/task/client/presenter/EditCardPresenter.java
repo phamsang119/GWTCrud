@@ -24,6 +24,8 @@ public class EditCardPresenter implements Presenter {
 
         HasValue<String> getBookName();
 
+        HasValue<String> getAuthor();
+
         HasValue<String> getDescription();
 
         HasValue<Date> getDate();
@@ -64,6 +66,7 @@ public class EditCardPresenter implements Presenter {
                 EditCardPresenter.this.display.getDescription().setValue(book.getDescription());
                 EditCardPresenter.this.display.getDate().setValue(book.getPublishedDate());
                 EditCardPresenter.this.display.getPrice().setValue(book.getPrice());
+                EditCardPresenter.this.display.getAuthor().setValue(book.getAuthor());
             }
         });
 

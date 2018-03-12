@@ -3,7 +3,7 @@ package com.task.client.presenter;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.user.client.ui.HasWidgets;
-import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.RichTextArea;
 import com.google.gwt.user.client.ui.Widget;
 import com.task.client.BookServiceAsync;
 import com.task.client.event.DescWindowEvents.CancelDescEvent;
@@ -12,7 +12,7 @@ import com.task.client.event.DescWindowEvents.CancelDescEvent;
 public class DescWindowPresenter implements Presenter {
 
     public interface Display {
-        TextBox getTextBox();
+        RichTextArea getTextArea();
 
         HasClickHandlers getCancelButton();
 
@@ -39,12 +39,13 @@ public class DescWindowPresenter implements Presenter {
     @Override
     public void go(HasWidgets container) {
         bind();
+        container.clear();
         container.add(display.asWidget());
         initTextBox();
     }
 
     private void initTextBox() {
-        display.getTextBox().setText(description);
+        display.getTextArea().setText(description);
     }
 
 }

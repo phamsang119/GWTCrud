@@ -2,9 +2,9 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <g:HTMLPanel>
         <g:ScrollPanel ui:field="scrollPanel">
-            <g:TextBox ui:field="textBox">
-            </g:TextBox>
+            <g:RichTextArea ui:field="textArea">
+            </g:RichTextArea>
         </g:ScrollPanel>
-        <g:Button ui:field="cancel"/>
+        <g:Button ui:field="cancel" text="Cancel"/>
     </g:HTMLPanel>
 </ui:UiBinder>
