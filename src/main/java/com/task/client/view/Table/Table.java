@@ -1,17 +1,18 @@
 package com.task.client.view.Table;
 
 import com.github.gwtbootstrap.client.ui.Button;
-import com.github.gwtbootstrap.client.ui.CellTable;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.cellview.client.CellTable;
 import com.google.gwt.user.cellview.client.TextColumn;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.view.client.ListDataProvider;
 import com.task.client.presenter.TablePresenter;
 import com.task.server.domain.Book;
+
 import java.util.List;
 
 public class Table extends Composite implements TablePresenter.Display {
@@ -33,7 +34,7 @@ public class Table extends Composite implements TablePresenter.Display {
 
 
     @UiField(provided = true)
-    static CellTable<Book> mainTable;
+    CellTable<Book> mainTable;
 
 
     public Table() {
@@ -110,5 +111,10 @@ public class Table extends Composite implements TablePresenter.Display {
     @Override
     public String getSelectedBookDescription() {
         return dataProvider.getList().get(mainTable.getKeyboardSelectedRow()).getDescription();
+    }
+
+    @Override
+    public String getSelectedBookAuthor() {
+        return dataProvider.getList().get(mainTable.getKeyboardSelectedRow()).getAuthor();
     }
 }

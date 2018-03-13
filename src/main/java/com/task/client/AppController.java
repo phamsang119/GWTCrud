@@ -55,7 +55,8 @@ public class AppController implements ValueChangeHandler<String> {
 
     private void doShowDescWindow(DoubleClickEvent event) {
         History.newItem("description");
-        Presenter presenter = new DescWindowPresenter(event.getDescription(),rpcService, eventBus, new DescWindow());
+        String result = "Description: \n" + event.getDescription() + "\n Author : " + event.getAuthor();
+        Presenter presenter = new DescWindowPresenter(result, rpcService, eventBus, new DescWindow());
         presenter.go(container);
     }
 

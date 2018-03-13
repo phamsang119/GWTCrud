@@ -1,12 +1,17 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:c="urn:import:com.google.gwt.user.cellview.client"
              xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
 
 
     <g:HTMLPanel>
-                <b:Button ui:field="addButton">Add</b:Button>
-                <b:Button ui:field="editButton">Edit</b:Button>
-                <b:Button ui:field="deleteButton">Delete</b:Button>
-                <b:CellTable ui:field="mainTable"/>
+        <br/>
+        <div align="center">
+                <b:Button addStyleNames="btn btn-primary" ui:field="addButton">Add</b:Button>
+                <b:Button addStyleNames="btn btn-primary" ui:field="editButton">Edit</b:Button>
+                <b:Button addStyleNames="btn btn-primary" ui:field="deleteButton">Delete</b:Button>
+        </div>
+
+        <div class="container"><c:CellTable addStyleNames="table table-striped" ui:field="mainTable"/> </div>
     </g:HTMLPanel>
 </ui:UiBinder>

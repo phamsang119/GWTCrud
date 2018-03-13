@@ -2,7 +2,10 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
              xmlns:b="urn:import:com.github.gwtbootstrap.client.ui">
     <g:HTMLPanel>
-        <b:TextArea ui:field="textArea" readOnly="true" />
-        <b:Button ui:field="cancel" text="cancel"/>
+        <div align="center">
+        <b:TextArea addStyleNames="container text-center" width="500px" height="200px" ui:field="textArea" readOnly="true" />
+        </div>
+        <br/>
+        <div align="center"> <b:Button ui:field="cancel" text="cancel"/></div>
     </g:HTMLPanel>
 </ui:UiBinder>
