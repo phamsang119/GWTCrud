@@ -2,11 +2,9 @@ package com.task.server.domain;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
@@ -19,16 +17,23 @@ public class Book implements Serializable {
     private int id;
 
     @NotNull
+    @Size(max = 50)
+    @Column(name = "bookName")
     private String bookName;
 
+    @Size(max = 50)
+    @Column(name = "author")
     private String author;
 
+    @Column(name = "description")
     private String description;
 
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE, pattern = "dd-mm-yyyy")
+    @Column(name = "publishedDate")
     private Date publishedDate;
 
     @NotNull
+    @Column(name = "price")
     private double price;
 
     public Book() {
@@ -43,8 +48,9 @@ public class Book implements Serializable {
         this.author = author;
     }
 
-    public Book(String bookName, String description, Date publishedDate, double price) {
+    public Book(String bookName, String author, String description, Date publishedDate, double price) {
         this.bookName = bookName;
+        this.author = author;
         this.description = description;
         this.publishedDate = publishedDate;
         this.price = price;

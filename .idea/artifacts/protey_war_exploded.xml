@@ -39,6 +39,7 @@
           <element id="library" level="project" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.0.Beta1" />
           <element id="library" level="project" name="Maven: javax.annotation:jsr250-api:1.0" />
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: com.github.gwtbootstrap:gwt-bootstrap:2.3.2.0" />

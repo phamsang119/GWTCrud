@@ -51,7 +51,7 @@ public class TablePresenter implements Presenter {
         display.getAddButton().addClickHandler(event -> eventBus.fireEvent(new AddBookEvent()));
         display.getDeleteButton().addClickHandler(event -> eventBus.fireEvent(new DeleteBookEvent(display.getSelectedRowBookId())));
         display.getUpdateButton().addClickHandler(event -> eventBus.fireEvent(new EditBookEvent(display.getSelectedRowBookId())));
-        display.getMainTable().addDomHandler(doubleClickEvent -> eventBus.fireEvent(new com.task.client.event.TableEvents.DoubleClickEvent(display.getSelectedBookDescription(),display.getSelectedBookAuthor())),
+        display.getMainTable().addDomHandler(doubleClickEvent -> eventBus.fireEvent(new com.task.client.event.TableEvents.DoubleClickEvent(display.getSelectedBookDescription(), display.getSelectedBookAuthor())),
                 com.google.gwt.event.dom.client.DoubleClickEvent.getType());
     }
 

@@ -17,4 +17,5 @@ public class App implements EntryPoint {
         AppController appViewer = new AppController(rpcService, eventBus);
         appViewer.go(RootPanel.get());
     }
+
 }
