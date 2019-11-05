@@ -9,15 +9,15 @@ import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.HasValue;
-import com.task.client.presenter.EditCardPresenter;
+import com.task.client.presenter.EditBookPresenter;
 
 import java.util.Date;
 
 
-public class EditCard extends Composite implements EditCardPresenter.Display {
+public class EditBook extends Composite implements EditBookPresenter.Display {
 
 
-    interface EditCardUiBinder extends UiBinder<HTMLPanel, EditCard> {
+    interface EditCardUiBinder extends UiBinder<HTMLPanel, EditBook> {
     }
 
     private static EditCardUiBinder ourUiBinder = GWT.create(EditCardUiBinder.class);
@@ -37,7 +37,7 @@ public class EditCard extends Composite implements EditCardPresenter.Display {
     @UiField
     TextBox author;
 
-    public EditCard() {
+    public EditBook() {
         initWidget(ourUiBinder.createAndBindUi(this));
     }
 

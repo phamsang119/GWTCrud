@@ -11,7 +11,8 @@
                 <b:Button addStyleNames="btn btn-primary" ui:field="editButton">Edit</b:Button>
                 <b:Button addStyleNames="btn btn-primary" ui:field="deleteButton">Delete</b:Button>
         </div>
+        <br/>
 
-        <div class="container"><c:CellTable addStyleNames="table table-striped" ui:field="mainTable"/> </div>
+        <div class="container"><c:CellTable addStyleNames="table table-bordered" ui:field="mainTable"/> </div>
     </g:HTMLPanel>
 </ui:UiBinder>

@@ -15,11 +15,11 @@ import com.task.client.event.TableEvents.DeleteBookEvent;
 import com.task.client.event.TableEvents.DoubleClickEvent;
 import com.task.client.event.TableEvents.EditBookEvent;
 import com.task.client.presenter.DescWindowPresenter;
-import com.task.client.presenter.EditCardPresenter;
+import com.task.client.presenter.EditBookPresenter;
 import com.task.client.presenter.Presenter;
 import com.task.client.presenter.TablePresenter;
 import com.task.client.view.DescriptionWindow.DescWindow;
-import com.task.client.view.EditWindow.EditCard;
+import com.task.client.view.EditWindow.EditBook;
 import com.task.client.view.Table.Table;
 
 
@@ -39,7 +39,7 @@ public class AppController implements ValueChangeHandler<String> {
         History.addValueChangeHandler(this);
 
         eventBus.addHandler(AddBookEvent.TYPE,
-                addBookEvent -> doAddNewContact());
+                addBookEvent -> doAddNewBook());
 
         eventBus.addHandler(EditBookEvent.TYPE,
                 editBookEvent -> doEditBook(editBookEvent.getId()));
@@ -75,13 +75,13 @@ public class AppController implements ValueChangeHandler<String> {
         presenter.go(container);
     }
 
-    private void doAddNewContact() {
+    private void doAddNewBook() {
         History.newItem("add");
     }
 
     private void doEditBook(int id) {
         History.newItem("edit", false);
-        Presenter presenter = new EditCardPresenter(rpcService, eventBus, new EditCard(), id);
+        Presenter presenter = new EditBookPresenter(rpcService, eventBus, new EditBook(), id);
         presenter.go(container);
     }
 
@@ -114,10 +114,10 @@ public class AppController implements ValueChangeHandler<String> {
                     presenter = new TablePresenter(rpcService, eventBus, new Table());
                     break;
                 case "add":
-                    presenter = new EditCardPresenter(rpcService, eventBus, new EditCard());
+                    presenter = new EditBookPresenter(rpcService, eventBus, new EditBook());
                     break;
                 case "edit":
-                    presenter = new EditCardPresenter(rpcService, eventBus, new EditCard());
+                    presenter = new EditBookPresenter(rpcService, eventBus, new EditBook());
                     break;
             }
 

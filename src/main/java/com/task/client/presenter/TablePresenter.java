@@ -45,6 +45,7 @@ public class TablePresenter implements Presenter {
         this.rpcService = rpcService;
         this.eventBus = eventBus;
         this.display = view;
+        bind();
     }
 
     public void bind() {
@@ -58,7 +59,6 @@ public class TablePresenter implements Presenter {
 
     @Override
     public void go(HasWidgets container) {
-        bind();
         container.clear();
         container.add(display.asWidget());
         fetchTable();

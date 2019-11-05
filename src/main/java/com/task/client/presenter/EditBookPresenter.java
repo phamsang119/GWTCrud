@@ -15,7 +15,7 @@ import com.task.server.domain.Book;
 
 import java.util.Date;
 
-public class EditCardPresenter implements Presenter {
+public class EditBookPresenter implements Presenter {
 
     public interface Display {
         HasClickHandlers getSaveButton();
@@ -40,7 +40,7 @@ public class EditCardPresenter implements Presenter {
     private final HandlerManager eventBus;
     private final Display display;
 
-    public EditCardPresenter(BookServiceAsync rpcService, HandlerManager eventBus, Display display) {
+    public EditBookPresenter(BookServiceAsync rpcService, HandlerManager eventBus, Display display) {
         this.rpcService = rpcService;
         this.eventBus = eventBus;
         this.book = new Book();
@@ -48,7 +48,7 @@ public class EditCardPresenter implements Presenter {
         bind();
     }
 
-    public EditCardPresenter(BookServiceAsync rpcService, HandlerManager eventBus, Display display, int id) {
+    public EditBookPresenter(BookServiceAsync rpcService, HandlerManager eventBus, Display display, int id) {
         this.rpcService = rpcService;
         this.eventBus = eventBus;
         this.display = display;
@@ -62,11 +62,11 @@ public class EditCardPresenter implements Presenter {
             @Override
             public void onSuccess(Book result) {
                 book = result;
-                EditCardPresenter.this.display.getBookName().setValue(book.getBookName());
-                EditCardPresenter.this.display.getDescription().setValue(book.getDescription());
-                EditCardPresenter.this.display.getDate().setValue(book.getPublishedDate());
-                EditCardPresenter.this.display.getPrice().setValue(book.getPrice());
-                EditCardPresenter.this.display.getAuthor().setValue(book.getAuthor());
+                EditBookPresenter.this.display.getBookName().setValue(book.getBookName());
+                EditBookPresenter.this.display.getDescription().setValue(book.getDescription());
+                EditBookPresenter.this.display.getDate().setValue(book.getPublishedDate());
+                EditBookPresenter.this.display.getPrice().setValue(book.getPrice());
+                EditBookPresenter.this.display.getAuthor().setValue(book.getAuthor());
             }
         });
 
