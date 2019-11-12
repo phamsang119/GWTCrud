@@ -7,18 +7,14 @@ import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasWidgets;
-import com.task.client.event.DescWindowEvents.CancelDescEvent;
 import com.task.client.event.EditWindowEvents.CancelEditWindowEvent;
 import com.task.client.event.EditWindowEvents.SaveBookEvent;
 import com.task.client.event.TableEvents.AddBookEvent;
 import com.task.client.event.TableEvents.DeleteBookEvent;
-import com.task.client.event.TableEvents.DoubleClickEvent;
 import com.task.client.event.TableEvents.EditBookEvent;
-import com.task.client.presenter.DescWindowPresenter;
 import com.task.client.presenter.EditBookPresenter;
 import com.task.client.presenter.Presenter;
 import com.task.client.presenter.TablePresenter;
-import com.task.client.view.DescriptionWindow.DescWindow;
 import com.task.client.view.EditWindow.EditBook;
 import com.task.client.view.Table.Table;
 
@@ -49,15 +45,6 @@ public class AppController implements ValueChangeHandler<String> {
         eventBus.addHandler(CancelEditWindowEvent.TYPE, editWindowEvent -> doCancelEvent());
         eventBus.addHandler(SaveBookEvent.TYPE, saveBookEvent -> doSaveBookEvent());
 
-        eventBus.addHandler(DoubleClickEvent.TYPE, this::doShowDescWindow);
-        eventBus.addHandler(CancelDescEvent.TYPE, event -> doCancelEvent());
-    }
-
-    private void doShowDescWindow(DoubleClickEvent event) {
-        History.newItem("description");
-        String result = "Description: \n" + event.getDescription() + "\n Author : " + event.getAuthor();
-        Presenter presenter = new DescWindowPresenter(result, rpcService, eventBus, new DescWindow());
-        presenter.go(container);
     }
 
     private void doDeleteBook(DeleteBookEvent event) {

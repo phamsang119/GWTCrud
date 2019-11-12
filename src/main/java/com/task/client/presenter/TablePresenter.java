@@ -1,6 +1,7 @@
 package com.task.client.presenter;
 
 
+import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.HasClickHandlers;
 import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.user.cellview.client.CellTable;
@@ -8,10 +9,14 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasWidgets;
 import com.google.gwt.user.client.ui.Widget;
 import com.task.client.BookServiceAsync;
+import com.task.client.Proxy.EmployClient;
+import com.task.client.Proxy.EmployeeDto;
 import com.task.client.event.TableEvents.AddBookEvent;
 import com.task.client.event.TableEvents.DeleteBookEvent;
 import com.task.client.event.TableEvents.EditBookEvent;
-import com.task.server.domain.Book;
+import com.task.Shared.model.Book;
+import org.fusesource.restygwt.client.Method;
+import org.fusesource.restygwt.client.MethodCallback;
 
 import java.util.List;
 

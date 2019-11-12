@@ -2,22 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8567dc-55e6-4dc1-b35d-8b086cf7b5ea" name="Default" comment="release">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/protey_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/protey_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/protey.iml" afterPath="$PROJECT_DIR$/protey.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/util/ValidationUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.xml" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/protey_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/protey_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/protey_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/protey_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106/_metadata_/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106/_metadata_/metadata.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106/_metadata_/metadata.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106/_metadata_/metadata.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106/_metadata_/metadata_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106/_metadata_/metadata_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106/_src_/database/PUBLIC/schema/SYSTEM_LOBS.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fc80e5a-e724-4cc9-94d2-2ce63468c106/storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d317c24b-e29e-4a09-adf9-96032a64c98a/storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protey.iml" beforeDir="false" afterPath="$PROJECT_DIR$/protey.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/BookServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/BookServiceAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/event/DescWindowEvents/CancelDescEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/event/DescWindowEvents/CancelDescEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/event/EditWindowEvents/SaveBookEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/event/EditWindowEvents/SaveBookEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/DescWindowPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/EditBookPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/EditBookPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/DescWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/DescWindow.ui.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/server/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/server/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/Shared/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/server/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/server/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/task/gwt.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/task/gwt.gwt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,31 +53,15 @@
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="test@127.0.0.1" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@127.0.0.1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@127.0.0.1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test@127.0.0.1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="book: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -64,121 +69,16 @@
   <component name="FavoritesManager">
     <favorites_list name="protey" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="73" column="77" lean-forward="true" selection-start-line="73" selection-start-column="77" selection-end-line="73" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TablePresenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book" pinned="false" current-in-tab="true">
-        <entry file="das://table:/7fca585a/38f9d19c-8e88-4bc7-a1cd-0407d2a4c338/test.book">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookServiceAsync.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/BookServiceAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/BookServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="91" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="91" />
-              <folding>
-                <element signature="e#276#303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Interface" />
         <option value="CSS File" />
+        <option value="GuiceNewBindingAnnotation" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>hashCode</find>
-      <find>Please enter your name</find>
-      <find>CONTACTS</find>
-      <find>form</find>
-      <find>dialogBox</find>
-      <find>add</find>
-      <find>username</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -194,74 +94,6 @@
       </map>
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/ui/Table/TableHeader.ui.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/ui/Table/TableHeader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/ui/Table/Table.ui.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/ui/Service/Helper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/ui/EditWindow/EditCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/ui/Table/Table.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/AddBookEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/AddBookEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/EditBookEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/DeleteBookEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/DeleteBookEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/EditBookEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/EditWindowEvents/CancelEditWindowEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/EditWindowEvents/CancelEditWindowEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/EditWindowEvents/SaveBookEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/AddBookEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/AddBookEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/DeleteBookEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/EditBookEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/DeleteBookEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/EditBookEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/server/repository/BookRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/EditWindowEvents/SaveBookEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/presenter/Presenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/shared/BookDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/BookService.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7fc80e5a-e724-4cc9-94d2-2ce63468c106/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/BookServiceAsync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/service/ValidatorFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/server/BookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/DescWindow.form" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/DescWindowEvents/CancelDescEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/util/ValidationUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/bootstrapStyles.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/presenter/EditCardPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/EditWindow/EditCard.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/task/gwt.gwt.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.ui.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/DoubleClickEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/AppController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/EditWindow/EditCard.ui.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/presenter/DescWindowPresenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/DescWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/DescWindow.ui.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/server/service/InitDbService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -269,185 +101,29 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GWT test project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GWT test project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
+  <component name="ProjectId" id="1SznP7aOnVUaQTLsBHOp3qlvLOp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="presenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GWTCrud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GWTCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="AppCo&#9;FILE&#9;file://C:/Users/User/Desktop/protey/src/main/java/com/task/server/service/AppContext.java" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="227" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;HSQLDB (Local)&#10;H2" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Contacts" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="AppCo&#9;FILE&#9;file://C:/Users/User/Desktop/protey/src/main/java/com/task/server/service/AppContext.java" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="227" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.task.Shared" />
       <recent name="com.task.client" />
     </key>
     <key name="GwtCreateUiBinderDialog.RecentRootElementType">
@@ -473,158 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="GWT Configuration.Unnamed">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.task.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.task.client.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="protey" />
-      <envs />
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.client.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="gwt" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration name="Unnamed (1)" type="GWT.ConfigurationType" factoryName="GWT Configuration">
-      <module name="protey" />
-      <option name="USE_SUPER_DEV_MODE" value="true" />
-      <option name="WORKING_DIRECTORY" value="" />
-    </configuration>
-    <configuration name="Unnamed" type="GWT.ConfigurationType" factoryName="GWT Configuration">
-      <module name="protey" />
-      <option name="RUN_PAGE" value="gwt.html" />
-      <option name="USE_SUPER_DEV_MODE" value="true" />
-      <option name="WORKING_DIRECTORY" value="" />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Unnamed (1) JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://127.0.0.1:8888/gwt.html" />
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="gwt" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
+  <component name="RunManager" selected="GWT Configuration.gwt">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -680,188 +205,117 @@
       </Profilers>
       <method />
     </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.task.client.Test" />
+      <module name="protey" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.task.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.client.Test" />
+      <module name="gwt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
+    <configuration name="gwt" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <option name="RUN_PAGE" value="gwt.html" />
+      <option name="UPDATE_RESOURCES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="USE_SUPER_DEV_MODE" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <module name="protey" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed (1) JavaScript" type="JavascriptDebugType" uri="http://127.0.0.1:8888/gwt.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="gwt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
-      <module name="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -869,74 +323,71 @@
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <module name="" />
-      <envs />
-      <method />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="GWT Configuration.Unnamed (1)" />
-      <item index="1" class="java.lang.String" itemvalue="GWT Configuration.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Unnamed (1) JavaScript" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="GWT Configuration.gwt" />
+      <item itemvalue="JavaScript Debug.Unnamed (1) JavaScript" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
@@ -956,6 +407,18 @@
       <workItem from="1520262437043" duration="2503000" />
       <workItem from="1520842286560" duration="11695000" />
       <workItem from="1520875229293" duration="20588000" />
+      <workItem from="1572575268367" duration="11386000" />
+      <workItem from="1572593242199" duration="6302000" />
+      <workItem from="1572670310306" duration="1690000" />
+      <workItem from="1572784501171" duration="3073000" />
+      <workItem from="1572833762388" duration="18688000" />
+      <workItem from="1572881777047" duration="30731000" />
+      <workItem from="1573006157481" duration="4032000" />
+      <workItem from="1573020248652" duration="1983000" />
+      <workItem from="1573024169974" duration="689000" />
+      <workItem from="1573203225638" duration="1824000" />
+      <workItem from="1573460026167" duration="41000" />
+      <workItem from="1573546858268" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="adding window with description with presenter">
       <created>1520867613543</created>
@@ -981,9 +444,6 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209091000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -993,51 +453,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3497537" sideWeight="0.5060514" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14145234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2934947" sideWeight="0.52272725" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44607842" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36453202" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30257186" sideWeight="0.47727272" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2934947" sideWeight="0.52272725" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="with MVP pattern" />
@@ -1049,1496 +479,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/task/client/AppController.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="GWT.ConfigurationType">
+        <watch expression="cause" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/fdsf.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/fdsf.form" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/gwt/gwt-user/2.8.1/gwt-user-2.8.1.jar!/com/google/gwt/event/dom/client/HasClickHandlers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/DoubleClickEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/DescWindowEvents/CancelDescEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/DescWindowEvents/CancelDescEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.0.RELEASE/spring-context-4.3.0.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/task/gwtJUnit.gwt.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/task/client/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/gwt.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.test:protey:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.test:protey:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="3408.7947346600317" y="901.0">com.test:protey:1.0-SNAPSHOT</node>
-            <node x="6067.936401326699" y="782.0">com.google.gwt:gwt-servlet:jar:2.8.1</node>
-            <node x="385.8155679933652" y="782.0">com.google.gwt:gwt-user:jar:2.8.1</node>
-            <node x="249.0" y="643.0">com.google.gwt:gwt-user:jar:2.8.1/com.google.jsinterop:jsinterop-annotations:jar:1.0.1</node>
-            <node x="541.0" y="643.0">com.google.gwt:gwt-user:jar:2.8.1/com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.1</node>
-            <node x="416.0" y="643.0">com.google.gwt:gwt-user:jar:2.8.1/javax.validation:validation-api:jar:1.0.0.GA</node>
-            <node x="78.0" y="643.0">com.google.gwt:gwt-user:jar:2.8.1/javax.validation:validation-api:jar:sources:1.0.0.GA</node>
-            <node x="2464.1228441127673" y="99.0">com.google.gwt:gwt-user:jar:2.8.1/javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="908.5" y="435.0">com.google.gwt:gwt-user:jar:2.8.1/org.w3c.css:sac:jar:1.3</node>
-            <node x="2171.253067993365" y="782.0">com.google.gwt:gwt-dev:jar:2.8.1</node>
-            <node x="1985.853109452735" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/com.google.code.gson:gson:jar:2.6.2</node>
-            <node x="3220.5625" y="356.0">com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm:jar:5.0.3</node>
-            <node x="3272.7072761194017" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-util:jar:5.0.3</node>
-            <node x="3225.64995854063" y="435.0">com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-util:jar:5.0.3/org.ow2.asm:asm-tree:jar:5.0.3</node>
-            <node x="3139.7072761194017" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-commons:jar:5.0.3</node>
-            <node x="2107.8125" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/colt:colt:jar:1.2.0</node>
-            <node x="1537.565567993365" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/ant:ant:jar:1.6.5</node>
-            <node x="1837.478109452735" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="2005.478109452735" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/commons-io:commons-io:jar:2.4</node>
-            <node x="2334.353109452735" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/com.ibm.icu:icu4j:jar:50.1.1</node>
-            <node x="1606.565567993365" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/tapestry:tapestry:jar:4.0.2</node>
-            <node x="1206.315567993365" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19</node>
-            <node x="1747.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xalan:xalan:jar:2.7.2</node>
-            <node x="1738.25" y="435.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xalan:xalan:jar:2.7.2/xalan:serializer:jar:2.7.2</node>
-            <node x="1738.25" y="356.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xalan:xalan:jar:2.7.2/xalan:serializer:jar:2.7.2/xml-apis:xml-apis:jar:1.3.04</node>
-            <node x="1607.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.commons:commons-lang3:jar:3.4</node>
-            <node x="1083.75" y="435.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1</node>
-            <node x="1065.3593905472644" y="356.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1/org.apache.httpcomponents:httpcore:jar:4.4.3</node>
-            <node x="1162.3593905472644" y="356.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1/commons-codec:commons-codec:jar:1.9</node>
-            <node x="1109.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpmime:jar:4.5.1</node>
-            <node x="1464.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/commons-codec:commons-codec:jar:1.10</node>
-            <node x="766.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17</node>
-            <node x="1214.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xerces:xercesImpl:jar:2.11.0</node>
-            <node x="1219.75" y="435.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xerces:xercesImpl:jar:2.11.0/xml-apis:xml-apis:jar:1.4.01</node>
-            <node x="1005.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/net.sourceforge.nekohtml:nekohtml:jar:1.9.22</node>
-            <node x="905.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/net.sourceforge.cssparser:cssparser:jar:0.9.18</node>
-            <node x="689.75" y="356.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/commons-logging:commons-logging:jar:1.2</node>
-            <node x="1322.25" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730</node>
-            <node x="1363.276057213931" y="435.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730/org.eclipse.jetty.websocket:websocket-common:jar:9.2.14.v20151106</node>
-            <node x="1426.6093905472644" y="356.0">com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730/org.eclipse.jetty.websocket:websocket-common:jar:9.2.14.v20151106/org.eclipse.jetty.websocket:websocket-api:jar:9.2.14.v20151106</node>
-            <node x="2757.2072761194017" y="435.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106</node>
-            <node x="2799.2072761194017" y="99.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106</node>
-            <node x="2730.7072761194017" y="356.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106</node>
-            <node x="2727.2072761194017" y="277.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106</node>
-            <node x="2179.8125" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106</node>
-            <node x="2132.956177446101" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106</node>
-            <node x="2600.1228441127673" y="99.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106</node>
-            <node x="2435.9375" y="0.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106</node>
-            <node x="2227.706177446101" y="99.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106</node>
-            <node x="2911.5728441127676" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106</node>
-            <node x="2876.7072761194017" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106</node>
-            <node x="2898.2072761194017" y="99.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106</node>
-            <node x="2979.7072761194017" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/javax.annotation:javax.annotation-api:jar:1.2</node>
-            <node x="2535.706177446101" y="643.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106</node>
-            <node x="2603.9791666666665" y="198.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106</node>
-            <node x="2423.8125" y="435.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0</node>
-            <node x="2339.3125" y="514.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.mortbay.jasper:apache-jsp:jar:8.0.9.M3</node>
-            <node x="2319.8125" y="435.0">com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.mortbay.jasper:apache-jsp:jar:8.0.9.M3/org.mortbay.jasper:apache-el:jar:8.0.9.M3</node>
-            <node x="0.0" y="782.0">c3p0:c3p0:jar:0.9.1.2</node>
-            <node x="1281.6697346600317" y="782.0">org.hsqldb:hsqldb:jar:2.2.8</node>
-            <node x="23.0" y="514.0">org.springframework:spring-test:jar:4.3.1.RELEASE</node>
-            <node x="21.0" y="435.0">org.springframework:spring-test:jar:4.3.1.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE</node>
-            <node x="4967.52495854063" y="782.0">org.springframework:spring-web:jar:4.3.0.RELEASE</node>
-            <node x="5084.544734660032" y="514.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-aop:jar:4.3.0.RELEASE</node>
-            <node x="5060.544734660032" y="435.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-aop:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.0.RELEASE</node>
-            <node x="4705.544734660032" y="514.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE</node>
-            <node x="4709.544734660032" y="435.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE</node>
-            <node x="4899.044734660032" y="643.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE</node>
-            <node x="4971.544734660032" y="514.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE</node>
-            <node x="4826.544734660032" y="514.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE/org.springframework:spring-expression:jar:4.3.0.RELEASE</node>
-            <node x="4842.544734660032" y="435.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE/org.springframework:spring-expression:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE</node>
-            <node x="5162.544734660032" y="643.0">org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE</node>
-            <node x="5650.294734660032" y="782.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE</node>
-            <node x="5346.21245854063" y="643.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE</node>
-            <node x="5395.544734660032" y="514.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE/org.springframework:spring-core:jar:4.2.6.RELEASE</node>
-            <node x="5671.234390547264" y="514.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE/org.springframework:spring-beans:jar:4.2.6.RELEASE</node>
-            <node x="6185.852010779434" y="643.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE</node>
-            <node x="6121.586401326698" y="514.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE</node>
-            <node x="6242.586401326698" y="514.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE</node>
-            <node x="6355.586401326698" y="514.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE/org.springframework:spring-jdbc:jar:4.2.6.RELEASE</node>
-            <node x="5838.21245854063" y="643.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-context:jar:4.2.6.RELEASE</node>
-            <node x="5615.21245854063" y="643.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-aop:jar:4.2.6.RELEASE</node>
-            <node x="6022.586401326698" y="514.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE</node>
-            <node x="6070.086401326698" y="435.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE</node>
-            <node x="5957.086401326698" y="435.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE</node>
-            <node x="5190.294734660032" y="435.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE</node>
-            <node x="5725.21245854063" y="643.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE</node>
-            <node x="5518.21245854063" y="643.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.aspectj:aspectjrt:jar:1.8.9</node>
-            <node x="5493.317723880598" y="435.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:slf4j-api:jar:1.7.21</node>
-            <node x="5276.544734660032" y="514.0">org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
-            <node x="3962.0447346600317" y="782.0">org.hibernate:hibernate-core:jar:5.2.1.Final</node>
-            <node x="3682.3728441127673" y="514.0">org.hibernate:hibernate-core:jar:5.2.1.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="4260.707276119401" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
-            <node x="3584.7072761194017" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/org.javassist:javassist:jar:3.20.0-GA</node>
-            <node x="3909.7072761194017" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="3985.7072761194017" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1</node>
-            <node x="3498.7072761194017" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/org.jboss:jandex:jar:2.0.0.Final</node>
-            <node x="4156.707276119401" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/com.fasterxml:classmate:jar:1.3.0</node>
-            <node x="4538.644776119402" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="3680.7072761194017" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
-            <node x="4424.707276119401" y="643.0">org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD</node>
-            <node x="4623.544734660032" y="514.0">org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD/javax.el:el-api:jar:2.2</node>
-            <node x="4296.544734660032" y="514.0">org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD/org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1</node>
-            <node x="4039.372844112768" y="514.0">org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD/javax.annotation:jsr250-api:jar:1.0</node>
-            <node x="4513.544734660032" y="514.0">org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD/javax.inject:javax.inject:jar:1</node>
-            <node x="6418.873942786069" y="782.0">org.springframework:spring-jdbc:jar:4.3.14.RELEASE</node>
-            <node x="6509.852010779434" y="643.0">org.springframework:spring-jdbc:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE</node>
-            <node x="6297.852010779434" y="643.0">org.springframework:spring-jdbc:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE</node>
-            <node x="6410.852010779434" y="643.0">org.springframework:spring-jdbc:jar:4.3.14.RELEASE/org.springframework:spring-tx:jar:4.3.14.RELEASE</node>
-            <node x="3396.2072761194017" y="782.0">junit:junit:jar:4.11</node>
-            <node x="3369.7072761194017" y="643.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE">
-              <point x="51.30000000000018" y="-14.5" />
-              <point x="5758.5947346600315" y="762.0" />
-              <point x="6231.852010779434" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.commons:commons-lang3:jar:3.4">
-              <point x="18.0" y="-14.5" />
-              <point x="1263.315567993365" y="593.0" />
-              <point x="1667.25" y="593.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="2777.7072761194017" y="252.0" />
-              <point x="2672.2291666666665" y="252.0" />
-              <point x="22.75" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.mortbay.jasper:apache-jsp:jar:8.0.9.M3" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0">
-              <point x="22.5" y="-14.5" />
-              <point x="2406.8125" y="494.0" />
-              <point x="2450.3125" y="494.0" />
-              <point x="-26.5" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="com.google.gwt:gwt-dev:jar:2.8.1">
-              <point x="-6.0" y="-14.5" />
-              <point x="3435.7947346600317" y="841.0" />
-              <point x="2209.253067993365" y="841.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730">
-              <point x="6.0" y="-14.5" />
-              <point x="1251.315567993365" y="573.0" />
-              <point x="1383.25" y="573.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE">
-              <point x="-34.5" y="-14.5" />
-              <point x="4979.02495854063" y="762.0" />
-              <point x="4730.794734660032" y="762.0" />
-              <point x="-25.25" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="2838.7072761194017" y="59.0" />
-              <point x="2498.5" y="59.0" />
-              <point x="24.0625" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
-              <point x="-27.5" y="-14.5" />
-              <point x="3989.5447346600317" y="742.0" />
-              <point x="3670.2072761194017" y="742.0" />
-              <point x="3670.2072761194017" y="623.0" />
-              <point x="3708.6228441127673" y="623.0" />
-              <point x="-26.25" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="com.google.gwt:gwt-servlet:jar:2.8.1">
-              <point x="24.0" y="-14.5" />
-              <point x="3465.7947346600317" y="871.0" />
-              <point x="6113.436401326699" y="871.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-test:jar:4.3.1.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/commons-logging:commons-logging:jar:1.2">
-              <point x="0.0" y="-14.5" />
-              <point x="67.5" y="415.0" />
-              <point x="711.75" y="415.0" />
-              <point x="-44.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE/org.springframework:spring-jdbc:jar:4.2.6.RELEASE">
-              <point x="34.5" y="-14.5" />
-              <point x="6266.352010779434" y="623.0" />
-              <point x="6402.086401326698" y="623.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.14.RELEASE">
-              <point x="30.0" y="-14.5" />
-              <point x="3471.7947346600317" y="881.0" />
-              <point x="6465.373942786069" y="881.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0">
-              <point x="-18.0" y="-14.5" />
-              <point x="2562.706177446101" y="613.0" />
-              <point x="2503.3125" y="613.0" />
-              <point x="26.5" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="2209.253067993365" y="692.0" />
-              <point x="2229.3125" y="692.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/commons-logging:commons-logging:jar:1.2">
-              <point x="-27.666666666666742" y="-14.5" />
-              <point x="1097.5833333333333" y="415.0" />
-              <point x="799.75" y="415.0" />
-              <point x="44.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/commons-io:commons-io:jar:2.4">
-              <point x="-10.133333333333212" y="-14.5" />
-              <point x="2199.119734660032" y="712.0" />
-              <point x="2081.228109452735" y="712.0" />
-              <point x="25.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:slf4j-api:jar:1.7.21">
-              <point x="-19.0" y="-14.5" />
-              <point x="5403.21245854063" y="623.0" />
-              <point x="5385.044734660032" y="623.0" />
-              <point x="5385.044734660032" y="494.0" />
-              <point x="5530.317723880598" y="494.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm:jar:5.0.3">
-              <point x="0.0" y="-14.5" />
-              <point x="2973.0728441127676" y="623.0" />
-              <point x="2969.2072761194017" y="623.0" />
-              <point x="2969.2072761194017" y="415.0" />
-              <point x="3229.5625" y="415.0" />
-              <point x="-18.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106">
-              <point x="-37.125" y="-14.5" />
-              <point x="2192.1875" y="623.0" />
-              <point x="2122.456177446101" y="623.0" />
-              <point x="2122.456177446101" y="69.0" />
-              <point x="2460.0" y="69.0" />
-              <point x="-14.4375" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/tapestry:tapestry:jar:4.0.2">
-              <point x="-25.333333333333485" y="-14.5" />
-              <point x="2183.9197346600313" y="742.0" />
-              <point x="1643.565567993365" y="742.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-user:jar:2.8.1" target="com.google.gwt:gwt-user:jar:2.8.1/javax.validation:validation-api:jar:1.0.0.GA">
-              <point x="6.583333333333314" y="-14.5" />
-              <point x="431.8989013266987" y="742.0" />
-              <point x="468.5" y="742.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-test:jar:4.3.1.RELEASE" target="org.springframework:spring-test:jar:4.3.1.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="2262.706177446101" y="79.0" />
-              <point x="2469.625" y="79.0" />
-              <point x="-4.8125" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106">
-              <point x="-40.66666666666674" y="-14.5" />
-              <point x="1342.5833333333333" y="494.0" />
-              <point x="1337.0" y="494.0" />
-              <point x="1337.0" y="49.0" />
-              <point x="2440.75" y="49.0" />
-              <point x="-33.6875" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-aop:jar:4.3.0.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE">
-              <point x="22.5" y="-14.5" />
-              <point x="5152.044734660032" y="494.0" />
-              <point x="5215.544734660032" y="494.0" />
-              <point x="-25.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-aop:jar:4.3.0.RELEASE">
-              <point x="40.875" y="-14.5" />
-              <point x="4994.419734660032" y="623.0" />
-              <point x="5107.044734660032" y="623.0" />
-              <point x="-22.5" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106">
-              <point x="18.0" y="-14.5" />
-              <point x="2598.706177446101" y="613.0" />
-              <point x="2626.7291666666665" y="613.0" />
-              <point x="-22.75" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD" target="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD/javax.annotation:jsr250-api:jar:1.0">
-              <point x="-25.874999999999545" y="-14.5" />
-              <point x="4433.332276119402" y="623.0" />
-              <point x="4080.872844112768" y="623.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.aspectj:aspectjrt:jar:1.8.9">
-              <point x="-17.100000000000364" y="-14.5" />
-              <point x="5690.194734660032" y="732.0" />
-              <point x="5556.71245854063" y="732.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE/org.springframework:spring-beans:jar:4.2.6.RELEASE">
-              <point x="57.0" y="-14.5" />
-              <point x="5479.21245854063" y="623.0" />
-              <point x="5721.734390547264" y="623.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-user:jar:2.8.1" target="com.google.gwt:gwt-user:jar:2.8.1/com.google.jsinterop:jsinterop-annotations:jar:1.0.1">
-              <point x="-19.75" y="-14.5" />
-              <point x="405.5655679933652" y="752.0" />
-              <point x="322.0" y="752.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/ant:ant:jar:1.6.5">
-              <point x="-30.40000000000009" y="-14.5" />
-              <point x="2178.8530679933647" y="752.0" />
-              <point x="1562.065567993365" y="752.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE">
-              <point x="-11.5" y="-14.5" />
-              <point x="5002.02495854063" y="752.0" />
-              <point x="4953.544734660032" y="752.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730/org.eclipse.jetty.websocket:websocket-common:jar:9.2.14.v20151106">
-              <point x="40.66666666666674" y="-14.5" />
-              <point x="1423.9166666666667" y="494.0" />
-              <point x="1434.276057213931" y="494.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/javax.annotation:javax.annotation-api:jar:1.2">
-              <point x="24.59999999999991" y="-14.5" />
-              <point x="2997.672844112767" y="613.0" />
-              <point x="3049.7072761194017" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:slf4j-api:jar:1.7.21">
-              <point x="0.0" y="-14.5" />
-              <point x="5325.544734660032" y="484.0" />
-              <point x="5505.6510572139305" y="484.0" />
-              <point x="-24.66666666666697" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21">
-              <point x="-39.899999999999636" y="-14.5" />
-              <point x="5667.394734660033" y="752.0" />
-              <point x="5301.044734660032" y="752.0" />
-              <point x="-24.5" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730/org.eclipse.jetty.websocket:websocket-common:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="1434.276057213931" y="415.0" />
-              <point x="1416.1093905472644" y="415.0" />
-              <point x="1416.1093905472644" y="158.0" />
-              <point x="2253.956177446101" y="158.0" />
-              <point x="-8.75" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/com.google.code.gson:gson:jar:2.6.2">
-              <point x="-15.199999999999818" y="-14.5" />
-              <point x="2194.0530679933654" y="722.0" />
-              <point x="2014.853109452735" y="722.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE/org.springframework:spring-expression:jar:4.3.0.RELEASE">
-              <point x="-13.625" y="-14.5" />
-              <point x="4939.919734660032" y="613.0" />
-              <point x="4889.044734660032" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106">
-              <point x="25.5" y="-14.5" />
-              <point x="2833.7072761194017" y="415.0" />
-              <point x="2838.7072761194017" y="415.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106">
-              <point x="15.199999999999818" y="-14.5" />
-              <point x="2224.453067993365" y="722.0" />
-              <point x="2778.1228441127673" y="722.0" />
-              <point x="2778.1228441127673" y="494.0" />
-              <point x="2774.2072761194017" y="494.0" />
-              <point x="-34.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/antlr:antlr:jar:2.7.7">
-              <point x="-5.5" y="-14.5" />
-              <point x="4011.5447346600317" y="722.0" />
-              <point x="3937.7072761194017" y="722.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106" target="com.google.gwt:gwt-user:jar:2.8.1/javax.servlet:javax.servlet-api:jar:3.1.0">
-              <point x="0.0" y="-14.5" />
-              <point x="2580.706177446101" y="603.0" />
-              <point x="2540.3125" y="603.0" />
-              <point x="2540.3125" y="168.0" />
-              <point x="2522.1228441127673" y="168.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-util:jar:5.0.3" target="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-util:jar:5.0.3/org.ow2.asm:asm-tree:jar:5.0.3">
-              <point x="0.0" y="-14.5" />
-              <point x="3310.7072761194017" y="494.0" />
-              <point x="3284.89995854063" y="494.0" />
-              <point x="19.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE">
-              <point x="-51.30000000000018" y="-14.5" />
-              <point x="5655.994734660031" y="762.0" />
-              <point x="5266.044734660032" y="762.0" />
-              <point x="25.25" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/net.sourceforge.nekohtml:nekohtml:jar:1.9.22">
-              <point x="-18.0" y="-14.5" />
-              <point x="1227.315567993365" y="593.0" />
-              <point x="1046.75" y="593.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106">
-              <point x="20.5" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.mortbay.jasper:apache-jsp:jar:8.0.9.M3" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.mortbay.jasper:apache-jsp:jar:8.0.9.M3/org.mortbay.jasper:apache-el:jar:8.0.9.M3">
-              <point x="-22.5" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE">
-              <point x="13.625" y="-14.5" />
-              <point x="4967.169734660032" y="613.0" />
-              <point x="5018.044734660032" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106">
-              <point x="36.0" y="-14.5" />
-              <point x="2616.706177446101" y="623.0" />
-              <point x="2716.7072761194017" y="623.0" />
-              <point x="2716.7072761194017" y="69.0" />
-              <point x="2488.875" y="69.0" />
-              <point x="14.4375" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="2938.2072761194017" y="49.0" />
-              <point x="2508.125" y="49.0" />
-              <point x="33.6875" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/org.javassist:javassist:jar:3.20.0-GA">
-              <point x="-38.5" y="-14.5" />
-              <point x="3978.5447346600317" y="752.0" />
-              <point x="3622.2072761194017" y="752.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-user:jar:2.8.1" target="com.google.gwt:gwt-user:jar:2.8.1/javax.servlet:javax.servlet-api:jar:3.1.0">
-              <point x="-6.583333333333485" y="-14.5" />
-              <point x="418.73223466003174" y="742.0" />
-              <point x="405.5" y="742.0" />
-              <point x="405.5" y="168.0" />
-              <point x="2483.456177446101" y="168.0" />
-              <point x="-38.666666666666515" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/net.sourceforge.cssparser:cssparser:jar:0.9.18" target="com.google.gwt:gwt-user:jar:2.8.1/org.w3c.css:sac:jar:1.3">
-              <point x="0.0" y="-14.5" />
-              <point x="12.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE">
-              <point x="39.899999999999636" y="-14.5" />
-              <point x="5747.194734660032" y="752.0" />
-              <point x="6042.336401326698" y="752.0" />
-              <point x="-19.75" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xerces:xercesImpl:jar:2.11.0" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xerces:xercesImpl:jar:2.11.0/xml-apis:xml-apis:jar:1.4.01">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xalan:xalan:jar:2.7.2" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xalan:xalan:jar:2.7.2/xalan:serializer:jar:2.7.2">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.14.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.14.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE">
-              <point x="-31.0" y="-14.5" />
-              <point x="6434.373942786069" y="762.0" />
-              <point x="6344.352010779434" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106">
-              <point x="10.133333333333212" y="-14.5" />
-              <point x="2219.3864013266984" y="712.0" />
-              <point x="2580.706177446101" y="712.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="com.google.gwt:gwt-user:jar:2.8.1">
-              <point x="-18.0" y="-14.5" />
-              <point x="3423.7947346600317" y="861.0" />
-              <point x="425.3155679933652" y="861.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD" target="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD/javax.inject:javax.inject:jar:1">
-              <point x="8.625000000000455" y="-14.5" />
-              <point x="4467.832276119402" y="613.0" />
-              <point x="4558.544734660032" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.14.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.14.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE">
-              <point x="31.0" y="-14.5" />
-              <point x="6496.373942786069" y="762.0" />
-              <point x="6560.352010779434" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE">
-              <point x="-28.5" y="-14.5" />
-              <point x="5678.794734660032" y="742.0" />
-              <point x="5422.21245854063" y="742.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/commons-logging:commons-logging:jar:1.2">
-              <point x="-36.0" y="-14.5" />
-              <point x="1209.315567993365" y="623.0" />
-              <point x="755.75" y="623.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1/commons-codec:commons-codec:jar:1.9">
-              <point x="27.666666666666742" y="-14.5" />
-              <point x="1152.9166666666667" y="415.0" />
-              <point x="1223.8593905472644" y="415.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17">
-              <point x="-30.0" y="-14.5" />
-              <point x="1215.315567993365" y="613.0" />
-              <point x="825.75" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-util:jar:5.0.3">
-              <point x="30.40000000000009" y="-14.5" />
-              <point x="2239.653067993365" y="752.0" />
-              <point x="3310.7072761194017" y="752.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106" target="com.google.gwt:gwt-user:jar:2.8.1/javax.servlet:javax.servlet-api:jar:3.1.0">
-              <point x="0.0" y="-14.5" />
-              <point x="2649.4791666666665" y="148.0" />
-              <point x="2560.789510779434" y="148.0" />
-              <point x="38.666666666666515" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpmime:jar:4.5.1">
-              <point x="-6.0" y="-14.5" />
-              <point x="1239.315567993365" y="573.0" />
-              <point x="1151.75" y="573.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpmime:jar:4.5.1" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1">
-              <point x="0.0" y="-14.5" />
-              <point x="1151.75" y="494.0" />
-              <point x="1146.0" y="494.0" />
-              <point x="20.75" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xerces:xercesImpl:jar:2.11.0">
-              <point x="0.0" y="-14.5" />
-              <point x="1245.315567993365" y="563.0" />
-              <point x="1258.25" y="563.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE">
-              <point x="5.699999999999818" y="-14.5" />
-              <point x="5712.994734660031" y="722.0" />
-              <point x="5771.71245854063" y="722.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/dom4j:dom4j:jar:1.6.1">
-              <point x="49.5" y="-14.5" />
-              <point x="4066.5447346600317" y="762.0" />
-              <point x="4571.644776119402" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE">
-              <point x="19.75" y="-14.5" />
-              <point x="6081.836401326698" y="494.0" />
-              <point x="6120.586401326698" y="494.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE">
-              <point x="11.5" y="-14.5" />
-              <point x="6243.352010779434" y="613.0" />
-              <point x="6289.086401326698" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-user:jar:2.8.1" target="com.google.gwt:gwt-user:jar:2.8.1/com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.1">
-              <point x="19.75" y="-14.5" />
-              <point x="445.0655679933652" y="752.0" />
-              <point x="637.0" y="752.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/org.jboss:jandex:jar:2.0.0.Final">
-              <point x="-49.5" y="-14.5" />
-              <point x="3967.5447346600317" y="762.0" />
-              <point x="3531.7072761194017" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE/org.springframework:spring-core:jar:4.2.6.RELEASE">
-              <point x="19.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106">
-              <point x="37.125" y="-14.5" />
-              <point x="2266.4375" y="623.0" />
-              <point x="2309.3125" y="623.0" />
-              <point x="2309.3125" y="178.0" />
-              <point x="2620.6228441127673" y="178.0" />
-              <point x="-20.5" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE">
-              <point x="-34.5" y="-14.5" />
-              <point x="6197.352010779434" y="623.0" />
-              <point x="6081.836401326698" y="623.0" />
-              <point x="19.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21">
-              <point x="-57.0" y="-14.5" />
-              <point x="5365.21245854063" y="623.0" />
-              <point x="5350.044734660032" y="623.0" />
-              <point x="24.5" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-commons:jar:5.0.3" target="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-util:jar:5.0.3/org.ow2.asm:asm-tree:jar:5.0.3">
-              <point x="0.0" y="-14.5" />
-              <point x="3196.2072761194017" y="494.0" />
-              <point x="3245.39995854063" y="494.0" />
-              <point x="-19.75" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106">
-              <point x="-49.19999999999982" y="-14.5" />
-              <point x="2923.872844112768" y="623.0" />
-              <point x="2808.2072761194017" y="623.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106">
-              <point x="20.26666666666688" y="-14.5" />
-              <point x="2229.5197346600316" y="732.0" />
-              <point x="2973.0728441127676" y="732.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106">
-              <point x="-25.5" y="-14.5" />
-              <point x="2782.7072761194017" y="415.0" />
-              <point x="2777.7072761194017" y="415.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
-              <point x="0.0" y="-14.5" />
-              <point x="3785.2072761194017" y="623.0" />
-              <point x="3761.1228441127673" y="623.0" />
-              <point x="26.25" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD" target="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD/org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1">
-              <point x="-8.624999999999545" y="-14.5" />
-              <point x="4450.582276119402" y="613.0" />
-              <point x="4395.044734660032" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-context:jar:4.2.6.RELEASE">
-              <point x="17.100000000000364" y="-14.5" />
-              <point x="5724.394734660033" y="732.0" />
-              <point x="5892.71245854063" y="732.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm:jar:5.0.3">
-              <point x="35.4666666666667" y="-14.5" />
-              <point x="2244.7197346600315" y="762.0" />
-              <point x="3359.2072761194017" y="762.0" />
-              <point x="3359.2072761194017" y="405.0" />
-              <point x="3265.5625" y="405.0" />
-              <point x="18.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE/org.springframework:spring-expression:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE/org.springframework:spring-expression:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106">
-              <point x="-30.333333333333485" y="-14.5" />
-              <point x="2619.145833333333" y="158.0" />
-              <point x="2288.956177446101" y="158.0" />
-              <point x="26.25" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730/org.eclipse.jetty.websocket:websocket-common:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106">
-              <point x="-47.33333333333326" y="-14.5" />
-              <point x="1386.9427238805977" y="415.0" />
-              <point x="1391.5" y="415.0" />
-              <point x="1391.5" y="59.0" />
-              <point x="2450.375" y="59.0" />
-              <point x="-24.0625" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-aop:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-aop:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.0.RELEASE">
-              <point x="-22.5" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/commons-collections:commons-collections:jar:3.2.2">
-              <point x="-20.26666666666688" y="-14.5" />
-              <point x="2188.986401326698" y="732.0" />
-              <point x="1948.478109452735" y="732.0" />
-              <point x="37.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="1383.25" y="494.0" />
-              <point x="1352.776057213931" y="494.0" />
-              <point x="1352.776057213931" y="148.0" />
-              <point x="2236.456177446101" y="148.0" />
-              <point x="-26.25" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.0.RELEASE">
-              <point x="12.0" y="-14.5" />
-              <point x="3453.7947346600317" y="851.0" />
-              <point x="5013.52495854063" y="851.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1">
-              <point x="5.5" y="-14.5" />
-              <point x="4022.5447346600317" y="722.0" />
-              <point x="4061.2072761194017" y="722.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-aop:jar:4.3.0.RELEASE">
-              <point x="11.5" y="-14.5" />
-              <point x="5025.02495854063" y="752.0" />
-              <point x="5152.044734660032" y="752.0" />
-              <point x="22.5" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/commons-codec:commons-codec:jar:1.10">
-              <point x="12.0" y="-14.5" />
-              <point x="1257.315567993365" y="583.0" />
-              <point x="1525.75" y="583.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="org.hibernate:hibernate-core:jar:5.2.1.Final">
-              <point x="6.0" y="-14.5" />
-              <point x="3447.7947346600317" y="841.0" />
-              <point x="4017.0447346600317" y="841.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-context:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE">
-              <point x="-40.875" y="-14.5" />
-              <point x="4912.669734660032" y="623.0" />
-              <point x="4781.294734660032" y="623.0" />
-              <point x="25.25" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106">
-              <point x="30.333333333333485" y="-14.5" />
-              <point x="2679.8125" y="178.0" />
-              <point x="2661.6228441127673" y="178.0" />
-              <point x="20.5" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-orm:jar:4.2.6.RELEASE/org.springframework:spring-beans:jar:4.3.0.RELEASE">
-              <point x="-11.5" y="-14.5" />
-              <point x="6220.352010779434" y="613.0" />
-              <point x="6172.086401326698" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="org.hsqldb:hsqldb:jar:2.2.8">
-              <point x="-12.0" y="-14.5" />
-              <point x="3429.7947346600317" y="851.0" />
-              <point x="1315.6697346600317" y="851.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/colt:colt:jar:1.2.0">
-              <point x="-5.066666666666606" y="-14.5" />
-              <point x="2204.1864013266986" y="702.0" />
-              <point x="2133.8125" y="702.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/commons-collections:commons-collections:jar:3.2.2">
-              <point x="30.0" y="-14.5" />
-              <point x="1275.315567993365" y="613.0" />
-              <point x="1874.478109452735" y="613.0" />
-              <point x="-37.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106">
-              <point x="0.0" y="-14.5" />
-              <point x="2641.1228441127673" y="79.0" />
-              <point x="2479.25" y="79.0" />
-              <point x="4.8125" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD" target="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD/javax.el:el-api:jar:2.2">
-              <point x="25.875000000000455" y="-14.5" />
-              <point x="4485.082276119402" y="623.0" />
-              <point x="4654.544734660032" y="623.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xalan:xalan:jar:2.7.2">
-              <point x="24.0" y="-14.5" />
-              <point x="1269.315567993365" y="603.0" />
-              <point x="1776.75" y="603.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106">
-              <point x="12.375" y="-14.5" />
-              <point x="2241.6875" y="613.0" />
-              <point x="2271.456177446101" y="613.0" />
-              <point x="8.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.0.RELEASE" target="org.springframework:spring-web:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE">
-              <point x="34.5" y="-14.5" />
-              <point x="5048.02495854063" y="762.0" />
-              <point x="5209.044734660032" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/commons-io:commons-io:jar:2.4">
-              <point x="36.0" y="-14.5" />
-              <point x="1281.315567993365" y="623.0" />
-              <point x="2030.728109452735" y="623.0" />
-              <point x="-25.25" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-commons:jar:5.0.3">
-              <point x="49.19999999999982" y="-14.5" />
-              <point x="3022.2728441127674" y="623.0" />
-              <point x="3167.9572761194017" y="623.0" />
-              <point x="-28.25" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-user:jar:2.8.1" target="com.google.gwt:gwt-user:jar:2.8.1/javax.validation:validation-api:jar:sources:1.0.0.GA">
-              <point x="-32.91666666666663" y="-14.5" />
-              <point x="392.3989013266987" y="762.0" />
-              <point x="153.5" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-user:jar:2.8.1" target="com.google.gwt:gwt-user:jar:2.8.1/org.w3c.css:sac:jar:1.3">
-              <point x="32.916666666666515" y="-14.5" />
-              <point x="458.23223466003174" y="762.0" />
-              <point x="743.5" y="762.0" />
-              <point x="743.5" y="494.0" />
-              <point x="920.75" y="494.0" />
-              <point x="-12.25" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106">
-              <point x="-12.375" y="-14.5" />
-              <point x="2216.9375" y="613.0" />
-              <point x="2196.956177446101" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/com.ibm.icu:icu4j:jar:50.1.1">
-              <point x="5.066666666666606" y="-14.5" />
-              <point x="2214.319734660032" y="702.0" />
-              <point x="2362.853109452735" y="702.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106">
-              <point x="-24.59999999999991" y="-14.5" />
-              <point x="2948.4728441127672" y="613.0" />
-              <point x="2917.7072761194017" y="613.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="c3p0:c3p0:jar:0.9.1.2">
-              <point x="-30.0" y="-14.5" />
-              <point x="3411.7947346600317" y="881.0" />
-              <point x="28.5" y="881.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/javax.enterprise:cdi-api:jar:1.1-PFD">
-              <point x="38.5" y="-14.5" />
-              <point x="4055.5447346600317" y="752.0" />
-              <point x="4459.207276119401" y="752.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-tx:jar:4.2.6.RELEASE/org.springframework:spring-core:jar:4.3.1.RELEASE">
-              <point x="-19.75" y="-14.5" />
-              <point x="6042.336401326698" y="494.0" />
-              <point x="6003.586401326698" y="494.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.3.1.RELEASE">
-              <point x="-24.0" y="-14.5" />
-              <point x="3417.7947346600317" y="871.0" />
-              <point x="67.5" y="871.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106/org.mortbay.jasper:apache-jsp:jar:8.0.9.M3">
-              <point x="-36.0" y="-14.5" />
-              <point x="2544.706177446101" y="623.0" />
-              <point x="2384.3125" y="623.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.springframework:spring-aop:jar:4.2.6.RELEASE">
-              <point x="-5.699999999999818" y="-14.5" />
-              <point x="5701.5947346600315" y="722.0" />
-              <point x="5660.21245854063" y="722.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19">
-              <point x="-35.4666666666667" y="-14.5" />
-              <point x="2173.786401326698" y="762.0" />
-              <point x="1245.315567993365" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/net.sourceforge.cssparser:cssparser:jar:0.9.18">
-              <point x="-24.0" y="-14.5" />
-              <point x="1221.315567993365" y="603.0" />
-              <point x="945.25" y="603.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xalan:xalan:jar:2.7.2/xalan:serializer:jar:2.7.2" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/xalan:xalan:jar:2.7.2/xalan:serializer:jar:2.7.2/xml-apis:xml-apis:jar:1.3.04">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.3.14.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.14.RELEASE/org.springframework:spring-tx:jar:4.3.14.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="6465.373942786069" y="762.0" />
-              <point x="6450.352010779434" y="762.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1" target="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-commons:jar:5.0.3">
-              <point x="25.333333333333485" y="-14.5" />
-              <point x="2234.5864013266983" y="742.0" />
-              <point x="3224.4572761194017" y="742.0" />
-              <point x="28.25" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730/org.eclipse.jetty.websocket:websocket-common:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730/org.eclipse.jetty.websocket:websocket-common:jar:9.2.14.v20151106/org.eclipse.jetty.websocket:websocket-api:jar:9.2.14.v20151106">
-              <point x="47.33333333333326" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106/org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106" target="com.google.gwt:gwt-dev:jar:2.8.1/org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106">
-              <point x="-20.5" y="-14.5" />
-              <point x="2897.2072761194017" y="494.0" />
-              <point x="2842.2072761194017" y="494.0" />
-              <point x="34.0" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-              <point x="0.0" y="-14.5" />
-              <point x="3441.7947346600317" y="831.0" />
-              <point x="3424.2072761194017" y="831.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1">
-              <point x="-12.0" y="-14.5" />
-              <point x="1233.315567993365" y="583.0" />
-              <point x="1098.75" y="583.0" />
-              <point x="1098.75" y="494.0" />
-              <point x="1104.5" y="494.0" />
-              <point x="-20.75" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/com.fasterxml:classmate:jar:1.3.0">
-              <point x="16.5" y="-14.5" />
-              <point x="4033.5447346600317" y="732.0" />
-              <point x="4198.707276119401" y="732.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm-util:jar:5.0.3/org.ow2.asm:asm-tree:jar:5.0.3" target="com.google.gwt:gwt-dev:jar:2.8.1/org.ow2.asm:asm:jar:5.0.3">
-              <point x="0.0" y="-14.5" />
-              <point x="3265.14995854063" y="415.0" />
-              <point x="3247.5625" y="415.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.test:protey:1.0-SNAPSHOT" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE">
-              <point x="18.0" y="-14.5" />
-              <point x="3459.7947346600317" y="861.0" />
-              <point x="5707.294734660032" y="861.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final">
-              <point x="-16.5" y="-14.5" />
-              <point x="4000.5447346600317" y="732.0" />
-              <point x="3785.2072761194017" y="732.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.1.Final" target="org.hibernate:hibernate-core:jar:5.2.1.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
-              <point x="27.5" y="-14.5" />
-              <point x="4044.5447346600317" y="742.0" />
-              <point x="4332.707276119401" y="742.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1" target="com.google.gwt:gwt-dev:jar:2.8.1/net.sourceforge.htmlunit:htmlunit:jar:2.19/org.apache.httpcomponents:httpclient:jar:4.5.1/org.apache.httpcomponents:httpcore:jar:4.4.3">
-              <point x="0.0" y="-14.5" />
-              <point x="1125.25" y="415.0" />
-              <point x="1103.8593905472644" y="415.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE" target="org.springframework.data:spring-data-jpa:jar:1.10.2.RELEASE/org.slf4j:slf4j-api:jar:1.7.21">
-              <point x="28.5" y="-14.5" />
-              <point x="5735.794734660032" y="742.0" />
-              <point x="5957.71245854063" y="742.0" />
-              <point x="5957.71245854063" y="494.0" />
-              <point x="5554.984390547264" y="494.0" />
-              <point x="24.66666666666697" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8379413524835428" x="5862.0" y="711.0" />
-          <SelectedNodes>
-            <node>com.test:protey:1.0-SNAPSHOT</node>
-            <node>org.hibernate:hibernate-core:jar:5.2.1.Final/antlr:antlr:jar:2.7.7</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/AddBookEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/DeleteBookEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/EditBookEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/DescWindowEvents/giygiyggi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/DescWindowEvents/giygiyggiHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/MyDateBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/gwt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/bootstrapStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.0.RELEASE/spring-context-4.3.0.RELEASE.jar!/org/springframework/format/annotation/DateTimeFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/task/gwt.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/util/ValidationUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/gwtbootstrap/gwt-bootstrap/2.3.2.0/gwt-bootstrap-2.3.2.0.jar!/com/github/gwtbootstrap/client/ui/CellTable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/event/TableEvents/DoubleClickEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#511#512#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/EditCardPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/EditWindow/EditCard.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="35" column="73" lean-forward="false" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/EditWindow/EditCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/DescWindowPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/DescWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#904#905#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/DescriptionWindow/DescWindow.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/repository/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/service/AppContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/BookServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="91" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="91" />
-          <folding>
-            <element signature="e#276#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/service/InitDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/server/domain/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/gwt/com/task/client/BookServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/7fca585a/38f9d19c-8e88-4bc7-a1cd-0407d2a4c338/test.books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="18" column="73" lean-forward="true" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/view/Table/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="73" column="77" lean-forward="true" selection-start-line="73" selection-start-column="77" selection-end-line="73" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/7fca585a/38f9d19c-8e88-4bc7-a1cd-0407d2a4c338/test.book">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/38f9d19c-8e88-4bc7-a1cd-0407d2a4c338/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/client/presenter/TablePresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/7fca585a/38f9d19c-8e88-4bc7-a1cd-0407d2a4c338/test.book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>protey:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring (protey)|Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>jquery-1.12.4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>GWT|protey</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ant:ant:1.6.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

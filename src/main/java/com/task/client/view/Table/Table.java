@@ -11,7 +11,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.view.client.ListDataProvider;
 import com.task.client.presenter.TablePresenter;
-import com.task.server.domain.Book;
+import com.task.Shared.model.Book;
 
 import java.util.List;
 

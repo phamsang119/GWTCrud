@@ -2,7 +2,7 @@ package com.task.client.event.EditWindowEvents;
 
 
 import com.google.gwt.event.shared.GwtEvent;
-import com.task.server.domain.Book;
+import com.task.Shared.model.Book;
 
 public class SaveBookEvent extends GwtEvent<SaveBookEventHandler> {
 

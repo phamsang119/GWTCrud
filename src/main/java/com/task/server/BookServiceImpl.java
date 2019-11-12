@@ -2,7 +2,7 @@ package com.task.server;
 
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import com.task.client.BookService;
-import com.task.server.domain.Book;
+import com.task.Shared.model.Book;
 import com.task.server.repository.BookRepository;
 import com.task.server.service.AppContext;
 

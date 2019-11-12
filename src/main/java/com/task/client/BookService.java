@@ -2,7 +2,7 @@ package com.task.client;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
-import com.task.server.domain.Book;
+import com.task.Shared.model.Book;
 
 import java.util.List;
 

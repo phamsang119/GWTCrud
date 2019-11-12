@@ -1,7 +1,7 @@
 package com.task.client;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.task.server.domain.Book;
+import com.task.Shared.model.Book;
 
 import java.util.List;
 

@@ -11,7 +11,7 @@ import com.google.gwt.user.client.ui.Widget;
 import com.task.client.BookServiceAsync;
 import com.task.client.event.EditWindowEvents.CancelEditWindowEvent;
 import com.task.client.event.EditWindowEvents.SaveBookEvent;
-import com.task.server.domain.Book;
+import com.task.Shared.model.Book;
 
 import java.util.Date;
 
