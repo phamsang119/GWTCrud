@@ -1,4 +1,4 @@
-package com.task.server.domain;
+package com.task.Shared.domain;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
